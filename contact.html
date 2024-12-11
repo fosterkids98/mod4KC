@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+            <br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required placeholder="Enter your email">
+
+        </fieldset>
+        <br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required placeholder="Enter your message here"></textarea>
+        
+        <fieldset> <!--BONUS-->
+            <p>How did you hear about us?</p>
+            <input type="radio" id="google" name="How did you hear about us?" value="google">
+            <label for="google" style="margin-right: 20px;">Google</label>
+
+            <input type="radio" id="facebook" name="How did you hear about us?" value="facebook">
+            <label for="facebook" style="margin-right: 20px;">Facebook</label>
+
+            <input type="radio" id="bing" name="How did you hear about us?" value="bing">
+            <label for="bing" style="margin-right: 20px;">Bing</label>
+
+            <input type="radio" id="other" name="How did you hear about us?" value="Other">
+            <label for="other">Other</label>
+            <input type="text" id="other" name="other" placeholder="Where did you hear of us?">
+        </fieldset>
+        
+        <input type="submit" value="Send">
+
+        
+    </form>
+</body>
+</html>
